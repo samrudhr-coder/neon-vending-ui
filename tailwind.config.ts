@@ -58,6 +58,15 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      boxShadow: {
+        'glow-primary': '0 0 30px hsl(173 75% 50% / 0.5)',
+        'glow-secondary': '0 0 30px hsl(231 100% 62% / 0.4)',
+        'card-glow': '0 10px 40px hsl(0 0% 0% / 0.5)',
+      },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(135deg, hsl(173 75% 50%), hsl(231 100% 62%))',
+        'gradient-dark': 'linear-gradient(180deg, hsl(0 0% 5%), hsl(0 0% 0%))',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
