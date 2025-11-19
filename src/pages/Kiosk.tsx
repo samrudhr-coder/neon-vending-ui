@@ -1,4 +1,5 @@
 import { ProductCard } from "@/components/ProductCard";
+import FloatingBackground from "@/components/FloatingBackground";
 import wheyShake from "@/assets/whey-shake.jpg";
 import massGainerShake from "@/assets/mass-gainer-shake.jpg";
 import dietShake from "@/assets/diet-shake.jpg";
@@ -32,7 +33,8 @@ const products = [
 
 const Kiosk = () => {
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="min-h-screen bg-background flex flex-col relative">
+      <FloatingBackground />
       {/* Header */}
       <header className="border-b border-border bg-gradient-dark px-8 py-6">
         <div className="max-w-7xl mx-auto">
